@@ -5,11 +5,11 @@ public class Main {
         System.out.println("Hello world!");
         Scanner sc = new Scanner(System.in);
         int inputNumber = sc.nextInt();
-        System.out.println(addTwotoTheNumber(inputNumber));
+        System.out.print(addTwotoTheNumber(inputNumber));
 
     }
     public static int addTwotoTheNumber(int n){
-        return n+2;
+        return n-2;
     }
 
 }
